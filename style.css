@@ -5,7 +5,13 @@ body{
 h1{
     font-size: 50px;
 }
-.name-highlight{
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
+}
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -24,6 +30,7 @@ h1{
 
 section{
     height: 450px;
+    padding-bottom: 100px;
 }
 
 .link-button{
@@ -34,4 +41,9 @@ section{
     color: white;
     font-weight: 700;
     
+}
+.dream-area{
+    background-image: url("./images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
